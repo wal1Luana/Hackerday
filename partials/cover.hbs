@@ -13,16 +13,22 @@
                 {{/if}}
             </div>
         {{/if}}
-        <div>
-       <p>
-          <a class="form-button" href="https://www.eventbrite.com/notavailable">
+       
+       
+        
+        <form class="form-wrapper cover-form" data-members-form>
+                        <input class="auth-email" type="email" data-members-email placeholder="Your email address" required="true" autocomplete="false">
+
+                           <a class="form-button" href="https://www.eventbrite.com/notavailable">
            <span class="default" >Anmelden</span>
-        </a>  
-        </p>
-  </div>
-  </div>
-    
+        </a> 
+                    </form>
+                {{/unless}}
+            {{/unless}}
+        {{/if}}
     </div>
 
-   
+    <button class="button-icon cover-arrow">
+        {{> "icons/caret-down"}}
+    </button>
 </div>
