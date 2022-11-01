@@ -1612,7 +1612,7 @@ textarea {
   border-radius: 4px;
   color: var(--white-color);
   cursor: pointer;
-  display: flex;
+
   font-size: 1.3rem;
   font-weight: 800;
   height: 40px;
