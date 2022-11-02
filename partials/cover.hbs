@@ -3,7 +3,16 @@
         <img class="cover-image u-object-fit" src="{{@site.cover_image}}" alt="{{@site.title}}">
     {{/if}}
 
-   
+    <div class="cover-content">
+        {{#if @site.description}}
+            <div class="cover-description">
+                {{#if @custom.email_signup_text}}
+                    {{@custom.email_signup_text}}
+                {{else}}
+                    {{@site.description}}
+                {{/if}}
+            </div>
+        {{/if}}
        
        
         
@@ -18,4 +27,5 @@
     </div>
 
 
+</div>
 </div>
