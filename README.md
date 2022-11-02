@@ -1,3 +1,5 @@
+# Here is only the theme saved
+
 # Edition
 
 The newsletter theme for [Ghost](https://github.com/TryGhost/Ghost). A beautiful way to share stories with your growing audience.
