@@ -2662,44 +2662,56 @@ body:not(.with-full-cover) .cover {
 }
 
 @media screen and (max-width: 600px) {
-  [class*="row"] {
+  .row {
     flex-direction: column;
   }
 }
 @media screen and (max-width: 1000px) {
-  [class*="kanton"] {
+  .kanton {
     height: 700px;
     object-fit: cover;
     text-align: center;
   }
-  [class*="stadt"] {
+}
+@media screen and (max-width: 1000px) {
+  .stadt {
     height: 22.4px;
     object-fit: cover;
     text-align: center;
   }
-  [class*="bedag"] {
+}
+@media screen and (max-width: 1000px) {
+  .bedag {
     height: 17px;
     object-fit: cover;
     text-align: center;
   }
-  [class*="bfh"] {
+}
+@media screen and (max-width: 1000px) {
+  .bfh {
     height: 17.5px;
     object-fit: cover;
     text-align: center;
   }
-  [class*="opendata"] {
+}
+@media screen and (max-width: 1000px) {
+  .opendata {
     height: 15px;
     object-fit: cover;
     text-align: center;
   }
-  [class*="column"] {
+}
+@media screen and (max-width: 1000px) {
+  .column {
     float: left;
     display: flex;
     height: fit-content;
     padding: 5px;
     text-align: center;
   }
-  [class*="row"] {
+}
+@media screen and (max-width: 1000px) {
+  .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
