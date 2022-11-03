@@ -2667,13 +2667,13 @@ body:not(.with-full-cover) .cover {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1174px) {
   .column {
-    flex: 50%;
+    flex: 75%;
     padding-top: 5%;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1174px) {
   .row {
     flex-direction: column;
   }
