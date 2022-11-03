@@ -2644,6 +2644,7 @@ body:not(.with-full-cover) .cover {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
+  display: flex;
   height: fit-content;
   padding: 5px;
   text-align: center;
