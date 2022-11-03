@@ -2627,12 +2627,12 @@ body:not(.with-full-cover) .cover {
   text-align: center;
 }
 .bedag {
-  height: 37px;
+  height: 34px;
   object-fit: cover;
   text-align: center;
 }
 .bfh {
-  height: 40px;
+  height: 35px;
   object-fit: cover;
   text-align: center;
 }
@@ -2656,11 +2656,22 @@ body:not(.with-full-cover) .cover {
 }
 @media screen and (max-width: 600px) {
   .column {
-    flex: 50%;
+    flex: 25%;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .row {
     flex-direction: column;
   }
