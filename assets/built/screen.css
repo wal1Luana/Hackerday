@@ -2662,44 +2662,44 @@ body:not(.with-full-cover) .cover {
 }
 
 @media screen and (max-width: 600px) {
-  .row {
+  [class*="row"] {
     flex-direction: column;
   }
 }
 @media screen and (max-width: 1000px) {
-  .kanton {
+  [class*="kanton"] {
     height: 700px;
     object-fit: cover;
     text-align: center;
   }
-  .stadt {
+  [class*="stadt"] {
     height: 22.4px;
     object-fit: cover;
     text-align: center;
   }
-  .bedag {
+  [class*="bedag"] {
     height: 17px;
     object-fit: cover;
     text-align: center;
   }
-  .bfh {
+  [class*="bfh"] {
     height: 17.5px;
     object-fit: cover;
     text-align: center;
   }
-  .opendata {
+  [class*="opendata"] {
     height: 15px;
     object-fit: cover;
     text-align: center;
   }
-  .column {
+  [class*="column"] {
     float: left;
     display: flex;
     height: fit-content;
     padding: 5px;
     text-align: center;
   }
-  .row {
+  [class*="row"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
