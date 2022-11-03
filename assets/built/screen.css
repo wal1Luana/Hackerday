@@ -2663,8 +2663,7 @@ body:not(.with-full-cover) .cover {
 }
 
 @media screen and (max-width: 600px) {
-  .row1,
-  .row2 {
+  .row {
     flex-direction: column;
     float: none;
   }
