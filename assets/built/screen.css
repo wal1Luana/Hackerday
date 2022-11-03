@@ -2641,8 +2641,7 @@ body:not(.with-full-cover) .cover {
   float: left;
   width: 14.2857%;
   padding: 5px;
-  margin: auto;
-  display: block;
+  text-align: center;
 }
 
 /* Clear floats after image containers */
