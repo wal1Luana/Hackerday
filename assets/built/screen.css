@@ -2619,22 +2619,27 @@ body:not(.with-full-cover) .cover {
 .kanton {
   max-width: 300px;
   object-fit: cover;
+  text-align: center;
 }
 .stadt {
   max-width: 120px;
   object-fit: cover;
+  text-align: center;
 }
 .bedag {
   max-width: 100px;
   object-fit: cover;
+  text-align: center;
 }
 .bfh {
   max-width: 85px;
   object-fit: cover;
+  text-align: center;
 }
 .opendata {
   max-width: 60px;
   object-fit: cover;
+  text-align: center;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
