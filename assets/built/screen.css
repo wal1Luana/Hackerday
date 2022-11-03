@@ -2654,6 +2654,17 @@ body:not(.with-full-cover) .cover {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
 
 /* Clear floats after image containers */
 
