@@ -2617,21 +2617,21 @@ body:not(.with-full-cover) .cover {
   animation-name: zoomOut;
 }
 .kanton {
-  max-width: 15px;
+  max-width: 35px;
   object-fit: cover;
 }
 .stadt {
-  size: 13px;
+  size: 33px;
 }
 .bedag {
-  width: 15px;
+  width: 35px;
   object-fit: cover;
 }
 .bfh {
-  width: 15px;
+  width: 35px;
 }
 .opendata {
-  width: 15px;
+  width: 35px;
   height: auto;
 }
 
