@@ -2649,8 +2649,7 @@ body:not(.with-full-cover) .cover {
   padding: 5px;
   text-align: center;
 }
-.row1,
-.row2 {
+.row {
   display: flex;
   align-items: center;
   justify-content: space-between;
