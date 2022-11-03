@@ -2621,18 +2621,20 @@ body:not(.with-full-cover) .cover {
   object-fit: cover;
 }
 .stadt {
-  size: 103px;
+  max-width: 105px;
+  object-fit: cover;
 }
 .bedag {
-  width: 105px;
+  max-width: 105px;
   object-fit: cover;
 }
 .bfh {
-  width: 105px;
+  max-width: 105px;
+  object-fit: cover;
 }
 .opendata {
-  width: 105px;
-  height: auto;
+  max-width: 105px;
+  object-fit: cover;
 }
 .imageDiv {
   display: block;
