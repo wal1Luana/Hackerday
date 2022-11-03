@@ -2617,19 +2617,19 @@ body:not(.with-full-cover) .cover {
   animation-name: zoomOut;
 }
 .kanton {
-  size: 10px;
+  size: 3px;
 }
 .stadt {
-  size: 10px;
+  size: 3px;
 }
 .bedag {
-  size: 10px;
+  size: 3px;
 }
 .bfh {
-  size: 10px;
+  size: 3px;
 }
 .opendata {
-  size: 10px;
+  size: 3px;
 }
 
 /*# sourceMappingURL=screen.css.map */
