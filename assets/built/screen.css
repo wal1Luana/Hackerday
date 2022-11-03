@@ -2666,10 +2666,31 @@ body:not(.with-full-cover) .cover {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 900px) {
-  .column {
-    flex: 50%;
-    padding-top: 5%;
+@media screen and (max-width: 1000px) {
+  .kanton {
+    height: 700px;
+    object-fit: cover;
+    text-align: center;
+  }
+  .stadt {
+    height: 22.4px;
+    object-fit: cover;
+    text-align: center;
+  }
+  .bedag {
+    height: 17px;
+    object-fit: cover;
+    text-align: center;
+  }
+  .bfh {
+    height: 17.5px;
+    object-fit: cover;
+    text-align: center;
+  }
+  .opendata {
+    height: 15px;
+    object-fit: cover;
+    text-align: center;
   }
 }
 
