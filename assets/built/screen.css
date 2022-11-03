@@ -2649,10 +2649,12 @@ body:not(.with-full-cover) .cover {
   padding: 5px;
   text-align: center;
 }
-.row {
+.row1,
+.row2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  float: left;
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -2662,19 +2664,22 @@ body:not(.with-full-cover) .cover {
 }
 
 @media screen and (max-width: 600px) {
-  .row {
+  .row1,
+  .row2 {
     flex-direction: column;
+    float: none;
   }
 }
 
 @media screen and (max-width: 1174px) {
   .column {
-    flex: 75%;
+    flex: 50%;
     padding-top: 5%;
   }
 }
 @media screen and (max-width: 1174px) {
-  .row {
+  .row1,
+  .row2 {
     flex-direction: column;
   }
 }
