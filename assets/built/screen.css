@@ -2636,8 +2636,18 @@ body:not(.with-full-cover) .cover {
   max-width: 60px;
   object-fit: cover;
 }
-.imageDiv {
-  display: block;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*# sourceMappingURL=screen.css.map */
