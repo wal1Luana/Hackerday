@@ -2616,4 +2616,20 @@ body:not(.with-full-cover) .cover {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
 }
+.kanton {
+  size: 10px;
+}
+.stadt {
+  size: 10px;
+}
+.bedag {
+  size: 10px;
+}
+.bfh {
+  size: 10px;
+}
+.opendata {
+  size: 10px;
+}
+
 /*# sourceMappingURL=screen.css.map */
