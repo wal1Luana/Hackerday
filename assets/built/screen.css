@@ -2617,19 +2617,22 @@ body:not(.with-full-cover) .cover {
   animation-name: zoomOut;
 }
 .kanton {
-  size: 3px;
+  max-width: 5px;
+  object-fit: cover;
 }
 .stadt {
   size: 3px;
 }
 .bedag {
-  size: 3px;
+  width: 5px;
+  object-fit: cover;
 }
 .bfh {
-  size: 3px;
+  width: 5px;
 }
 .opendata {
-  size: 3px;
+  width: 5px;
+  height: auto;
 }
 
 /*# sourceMappingURL=screen.css.map */
