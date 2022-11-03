@@ -2617,40 +2617,41 @@ body:not(.with-full-cover) .cover {
   animation-name: zoomOut;
 }
 .kanton {
-  max-width: 300px;
+  height: 45px;
   object-fit: cover;
   text-align: center;
 }
 .stadt {
-  max-width: 120px;
+  height: 45px;
   object-fit: cover;
   text-align: center;
 }
 .bedag {
-  max-width: 100px;
+  height: 45px;
   object-fit: cover;
   text-align: center;
 }
 .bfh {
-  max-width: 85px;
+  height: 45px;
   object-fit: cover;
   text-align: center;
 }
 .opendata {
-  max-width: 60px;
+  height: 45px;
   object-fit: cover;
   text-align: center;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 14.2857%;
+  height: fit-content;
   padding: 5px;
   text-align: center;
 }
 .row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* Clear floats after image containers */
