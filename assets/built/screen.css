@@ -2637,7 +2637,7 @@ body:not(.with-full-cover) .cover {
   text-align: center;
 }
 .opendata {
-  height: 3opx;
+  height: 30px;
   object-fit: cover;
   text-align: center;
 }
