@@ -2639,7 +2639,7 @@ body:not(.with-full-cover) .cover {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 20%;
+  width: 14.2857%;
   padding: 5px;
 }
 
