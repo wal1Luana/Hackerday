@@ -2641,13 +2641,9 @@ body:not(.with-full-cover) .cover {
   float: left;
   width: 14.2857%;
   padding: 5px;
+  justify-content: center;
 }
 
 /* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 /*# sourceMappingURL=screen.css.map */
