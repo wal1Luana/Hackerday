@@ -2617,12 +2617,12 @@ body:not(.with-full-cover) .cover {
   animation-name: zoomOut;
 }
 .kanton {
-  height: 80px;
+  height: 120px;
   object-fit: cover;
   text-align: center;
 }
 .stadt {
-  height: 40px;
+  height: 45px;
   object-fit: cover;
   text-align: center;
 }
@@ -2637,7 +2637,7 @@ body:not(.with-full-cover) .cover {
   text-align: center;
 }
 .opendata {
-  height: 35px;
+  height: 3opx;
   object-fit: cover;
   text-align: center;
 }
