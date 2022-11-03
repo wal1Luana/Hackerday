@@ -2656,7 +2656,8 @@ body:not(.with-full-cover) .cover {
 }
 @media screen and (max-width: 600px) {
   .column {
-    flex: 25%;
+    flex: 50%;
+    padding-top: 5%;
   }
 }
 
@@ -2668,6 +2669,7 @@ body:not(.with-full-cover) .cover {
 @media screen and (max-width: 900px) {
   .column {
     flex: 50%;
+    padding-top: 5%;
   }
 }
 
