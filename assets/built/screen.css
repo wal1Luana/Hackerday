@@ -2635,7 +2635,7 @@ body:not(.with-full-cover) .cover {
   height: auto;
 }
 .imageDiv {
-  display: inline-block;
+  display: block;
 }
 
 /*# sourceMappingURL=screen.css.map */
