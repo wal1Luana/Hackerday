@@ -2653,7 +2653,7 @@ body:not(.with-full-cover) .cover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  float: left;
+  float: center;
 }
 @media screen and (max-width: 600px) {
   .column {
@@ -2676,9 +2676,9 @@ body:not(.with-full-cover) .cover {
   }
 }
 @media screen and (max-width: 1174px) {
-  .row1,
-  .row2 {
+  .row {
     flex-direction: column;
+    float: none;
   }
 }
 
