@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
 
     {{ghost_head}}
+    <div>
+        <p>DE</p>
+        <p>FR</p>
+    </div>
 </head>
 
 <body class="{{body_class}} is-head-b--n--a{{{block "body_class"}}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Elegant serif"}} has-serif-body{{/match}}{{^is "home"}}{{#if @site.cover_image}} is-head-brand{{/if}}{{/is}}">
