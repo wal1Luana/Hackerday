@@ -39,10 +39,9 @@
         </nav>
 
         <div class="gh-head-actions">
-            {{#site.href}}
-                {{#https://data-hackdays-be-fr.lehre.digisus-lab.ch/teaser/}}
-                 <nav> <a href="https://data-hackdays-be.ch/teaser/">DE</a> </nav>
-                <nav> <a href="https://data-hackdays-be-fr.lehre.digisus-lab.ch/teaser/">FR</a> </nav>
+            <script src="{{asset "language.js"}}"></script>
+                 <nav> <a href={{newUrlD}}>DE</a> </nav>
+                <nav> <a href={{newUrlF}}>>FR</a> </nav>
             </div>
 
         <div class="gh-head-actions">
