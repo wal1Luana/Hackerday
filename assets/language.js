@@ -17,7 +17,7 @@ let urlF = "";
 if (lastElements == "teaser") {
   urlD = "https://data-hackdays-be.ch/teaser/";
   urlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/teaser/";
-  console.log("on Teader");
+  console.log("on Teaser");
 } else if (lastElements == "anmeldung") {
   urlD = "https://data-hackdays-be.ch/anmeldung/";
   urlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/anmdelung/";
