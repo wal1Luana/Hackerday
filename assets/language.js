@@ -2,21 +2,24 @@ function getCurrentURL() {
   return window.location.href;
 }
 
-const url = getCurrentURL();
-console.log(url);
+const actuallUrl = getCurrentURL();
+console.log(actuallUrl);
 
-const fragment = url.split("/");
-const fragmentLength = fragment.length - 1;
-const lastElement = fragment[fragmentLength];
-console.log(lastElement);
+const urlList = actuallUrl.split("/");
+console.log(urlList);
+const urlListLength = urlList.length - 2;
+const lastElements = urlList[urlListLength];
+console.log(lastElements);
 
-const newUrlD = "";
-const newUrlF = "";
+let urlD = "";
+let urlF = "";
 
-if (lastElement == "teaser") {
-  newUrlD = "https://data-hackdays-be.ch/teaser/";
-  newUrlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/teaser/";
-} else if (lastElement == anmeldung) {
-  newUrlD = "https://data-hackdays-be.ch/anmeldung/";
-  newUrlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/anmdelung/";
+if (lastElements == "teaser") {
+  urlD = "https://data-hackdays-be.ch/teaser/";
+  urlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/teaser/";
+  console.log("on Teader");
+} else if (lastElements == "anmeldung") {
+  urlD = "https://data-hackdays-be.ch/anmeldung/";
+  urlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/anmdelung/";
+  console.log("on Anmeldung");
 }
