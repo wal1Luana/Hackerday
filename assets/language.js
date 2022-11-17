@@ -23,3 +23,5 @@ if (lastElements == "teaser") {
   urlF = "https://data-hackdays-be-fr.lehre.digisus-lab.ch/anmdelung/";
   console.log("on Anmeldung");
 }
+console.log(urlD);
+console.log(urlF);
