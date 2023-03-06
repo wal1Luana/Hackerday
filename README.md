@@ -5,7 +5,7 @@ Zuerst war der Auftrag nur, dass ich ihm helfe ein Repository zu erstellen, dami
 
 Felix hatte für die Ghost Seite ein Abo erstellt und hatte aber so nicht zugriff auf alle Funktionen von Ghost. Z.B konnte er nicht kostenlos das Theme ändern. Deshalb habe ich mit Dominic W. eine neue Ghost Seite über sein Script erstellt und den Content hineingezogen.
 
-Danach kamen von Zeit zu Zeit immer weitere kleine Anpassungen:
+Am Anfang war es angedacht, dass ich Felix nur am Anfang helfe. Felix teilte mir dann aber mit, dass er sich im Code von Ghost nicht zurecht findet, weshalb er mit dann von Zeit zu Zeit immer weitere kleine Anpassungen gegeben hat wie:
 
 - Buttons hinzufügen
 - Lupe oben rechts entfernen
