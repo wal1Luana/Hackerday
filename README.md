@@ -1,40 +1,24 @@
-# Here is only the theme saved
+### Auftrag entstanden
 
-# Edition
+Am 20.10.2022 hat mich Felix kontaktiert, ob ich ihm helfen kann bei einer Ghost Seite für die Hackdays.
+Zuerst war der Auftrag nur, dass ich ihm helfe ein Repository zu erstellen, damit ich einige Komponenten der Ghost Seite löschen kann, wie das Ghost Logo zum Beispiel.
 
-The newsletter theme for [Ghost](https://github.com/TryGhost/Ghost). A beautiful way to share stories with your growing audience.
+Felix hatte für die Ghost Seite ein Abo erstellt und hatte aber so nicht zugriff auf alle Funktionen von Ghost. Z.B konnte er nicht kostenlos das Theme ändern. Deshalb habe ich mit Dominic W. eine neue Ghost Seite über sein Script erstellt und den Content hineingezogen.
 
-**Demo: https://edition.ghost.io**
+Danach kamen von Zeit zu Zeit immer weitere kleine Anpassungen:
 
-# Instructions
+- Buttons hinzufügen
+- Lupe oben rechts entfernen
+- Load more Button löschen
+- Logos hinzufügen im Footer
+- Texte ändern
+- Teaser Seite als Home-Seite verlinken
+- Styling / responsive Design
 
-1. [Download this theme](https://github.com/TryGhost/Edition/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+**Domain:** hat Felix über folgende Seite gekauft: one.com
 
-# Development
+**Übersetzungen:** wurden von Felix mit Weglot gemacht
 
-Edition styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+**Code:** Ich konnte die meisten Sachen über die Datei default.hbs löschen oder hinzufügen. Das Styling habe ich alles über die Datei screen.css geändert welche im Ordner assets/built ist. Einige Probleme wie Verlinkungen auf der Seite konnte ich über die Ghost Benutzeroberfläche ändern.
 
-```bash
-# Install
-yarn
-
-# Run build & watch for changes
-yarn dev
-```
-
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
-
-The `zip` Gulp task packages the theme files into `dist/edition.zip`, which you can then upload to your site.
-
-```bash
-yarn zip
-```
-
-# Contribution
-
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
-
-# Copyright & License
-
-Copyright (c) 2013-2022 Ghost Foundation - Released under the [MIT license](LICENSE).
+**Probleme:** Es gab mehrmals ein Problem mit dem URL und das die Website Privat war. Das Problem war, dass es einen Fehler in der Pipeline hatte. So wurde jedes mal wenn eine andere Ghost Seite erstellt wurde die Hackdays Seite aktuallisiert und weil da ein Fehler war ist diese aktualisierung dann fehlgeschlagen. Durch diesen Fehler im Script wurde die Hackdays Seite immer Privat oder sogar unereichbar wenn man eine neue Ghost Seite erstellt hatte. Dominic W. hat diesen Fehler im Script angepasst und seit da ist dieser Fehler nie mehr vorgekommen.
