@@ -24,3 +24,16 @@ Am Anfang war es angedacht, dass ich Felix nur am Anfang helfe. Felix teilte mir
 **Probleme:** Es gab mehrmals ein Problem mit dem URL und das die Website Privat war. Das Problem war, dass es einen Fehler in der Pipeline hatte. So wurde jedes mal wenn eine andere Ghost Seite erstellt wurde die Hackdays Seite aktuallisiert und weil da ein Fehler war ist diese aktualisierung dann fehlgeschlagen. Durch diesen Fehler im Script wurde die Hackdays Seite immer Privat oder sogar unereichbar wenn man eine neue Ghost Seite erstellt hatte. Dominic W. hat diesen Fehler im Script angepasst und seit da ist dieser Fehler nie mehr vorgekommen.
 
 **Ziel:** Das Ziel war Felix zu unterstützten mit kleinen Anpassungen im Code damit es eine schöne Seite für die Datahackdays gab.
+
+### Wie starte ich das Projekt:
+
+In diesem Projekt ist nur das Theme abgespeichert und nicht eine komplette Ghost Instanz. Dass heisst man kann hier die Änderungen anpassen dann als zip Datei vom Gitlab herunterladen und dann gleich auf die Ghost Seite über das Dashboard hochladen.
+[Hier] (/https://data-hackdays-be.ch/ghost/#/dashboard) kommt man auf das Dashboard von der Hackdays Ghost Seite.
+Über Settings/Design/Change Theme/Upload theme kann man neue Theme hochladen oder über den Button Advanced sieht man die verschiedenen Theme.
+
+Dafür muss nichts aufgesetzt werden.
+
+### Systemaufbau
+
+Die Sprache in Ghost ist Handelbars, [hier] (/https://handlebarsjs.com/) ist die doku.
+[Hier] (/https://ghost.org/docs/) ist die Ghost Doku.
